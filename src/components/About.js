@@ -1,4 +1,5 @@
 import React from "react";
+import photo from "../images/smaller-profile-pic.jpg";
 
 function About() 
 {
@@ -9,7 +10,8 @@ function About()
                Experience with the subject is thin but it has been one of my favorite practices ever
                since college.  Along with progaming I enjoy sculpting and writing in my free time and 
                the hope is that I will be able to combine these passions in a programing format. 
-            </p>
+            </p>                
+            <img src = {photo} alt = "Profile Picture"/>
         </div>
     )
 }
