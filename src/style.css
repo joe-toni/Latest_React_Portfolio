@@ -102,3 +102,23 @@
         border-radius: 15px;
         border: 5px solid var(--softblue);
     }
+
+.portfolio-container
+{
+    width: 100%;
+    border: 5px solid blueviolet;
+}
+
+    .project-container
+    {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .image-container
+    {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        
+    }
