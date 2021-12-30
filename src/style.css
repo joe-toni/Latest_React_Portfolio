@@ -122,3 +122,14 @@
         object-fit: cover;
         
     }
+
+    .mainview
+    {
+        display: flex;
+    }
+
+    .thumbnail
+    {
+        height: 200px;
+        width: 300px;
+    }
