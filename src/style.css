@@ -7,20 +7,21 @@
          --backgroundwhite: rgb(237,237,246);
     }
 
-    .whole-page-container
+.whole-page-container
     {
+        border: 5px dashed gray;
         background-size: cover;
         background-color: var(--backgroundwhite);
         display: flex;
         flex-direction: column;
         margin: 0 auto;
         height: auto;
-        width: 100vw;
+        width: 94vw;
         max-width: 1280px;
         max-height: 1920px;
     }
 
-    .header-container
+.header-container
     {
         display:flex;
         flex-direction: column;
@@ -31,13 +32,14 @@
         background-color: var(--currentgrey);
     }
 
-    .title-container
+.title-container
     {
         flex-basis: 35%;
     }
 
-    .title
+.title
     {
+        color: black;
         text-align: center;
         width: auto;
         padding: 10px 30px;
@@ -49,17 +51,25 @@
         color: var(--softblue);
     }
 
-    a
+a
     {
         margin: 5px;
         color: var(--softblue);
         text-decoration: none;
     }
 
-    .footer-container
+.content-container
+    {
+        height: auto;
+        min-height: 200px;
+        border : 5px solid white;
+        border-top: 5px solid var(--backgroundwhite);
+        border-bottom: 5px solid var(--backgroundwhite);
+    }
+
+.footer-container
     {
         display:flex;
-        flex-direction: column;
         align-items: center;
         justify-content: center;
         height: 100px;
@@ -67,16 +77,48 @@
         background-color: var(--currentgrey);
     }
 
-
-
-
-    .aboutMe-container
+.basic-container
     {
         display: flex;
         flex-direction: column;
-        height: auto;
-        width:80%;
-        margin: 0 auto;
+        align-items: center;
+        width: 98%;
+    }
+.basic-container h2
+{
+    text-align: center;
+    width: 150px;
+    border: 3px solid var(--softblue);
+    border-radius: 5px;
+    background-color: var(--currentgrey);
+    color: var(--softblue);
+}
+.basic-container p
+{
+    border: 3px solid var(--currentgrey);
+    width: 250px;
+    text-align: center;
+    background-color: var(--softblue);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.basic-container img
+{
+    margin: 5px auto;
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+    border: 5px solid var(--softblue);
+}
+
+
+.aboutMe-container
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 98%;
     }
 
     .aboutMe

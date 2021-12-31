@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import Project from "./Project"
+import Project from "../components/Project"
 
 import Pillar from "../images/The_Art_Pillar_Personal_Copy_Screenshot.png";
 import Blog from "../images/The_Tech_Blog_Original_Homescreen.png";
