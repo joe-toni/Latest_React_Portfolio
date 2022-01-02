@@ -6,7 +6,7 @@ function About()
     return (
         <div className = "basic-container">
             <h2>About Me</h2>           
-            <img src = {photo} alt = "Profile Picture"/>
+            <img src = {photo} alt = "Profile"/>
             <p>
             Full stack web developer in training, working on completing the UC Davis coding bootcamp. Recently acquired entry 
             level skills for creating applications that follow the MVC architecture, and the MERN framework. Hoping to apply a 

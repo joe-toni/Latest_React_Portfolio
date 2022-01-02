@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import background from "./images/pawel-czerwinski-background-pattern.jpg"
@@ -19,7 +19,7 @@ function App() {
       <Header/>
       <div className= "content-container">
       <Switch >
-        <Route exact path = "/" component = {Welcome}/>
+        <Route exact path = "/" component = {About}/>
         <Route exact path = "/aboutMe" component = {About}/>
         <Route exact path = "/portfolio" component = {Portfolio}/>
         <Route exact path = "/resume" component= {Resume}/>

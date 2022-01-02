@@ -1,5 +1,6 @@
-import React from "react";
+import React, {useState} from "react";
 import {Link} from "react-router-dom";
+import Welcome from "../Pages/Welcome";
 import Navigation from "./Navigation";
 
 function Header()
@@ -7,10 +8,10 @@ function Header()
     return (   
 
     <div className = "header-container">
-        <Link to= "/" className = "title-container">
+        <div className = "title-container">
             <h1 className= "title">Jose Faburrieta</h1>
             <h2 className= "subtitle"> Multimedia Developer</h2>
-        </Link>
+        </div>
         <Navigation/>
     </div>
     )
