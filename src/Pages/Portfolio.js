@@ -6,6 +6,7 @@ import Blog from "../images/The_Tech_Blog_Original_Homescreen.png";
 import Travel from "../images/There_And_Back_Original_Screenshot.png";
 import Weather from "../images/Weather_Dashboard_Original_Screenshot.png";
 import Scheduler from "../images/Work_Day_Scheduler_Original_Screenshot.png";
+import Workout from "../images/Workout_Tracker_Main_Page.png"
 
 const pillarProject = 
 {
@@ -57,31 +58,58 @@ const schedulerProject =
     deploy: "https://joe-toni.github.io/S6-HW-WEATHER-DASHBOARD/"
 }
 
+const workoutProject = 
+{
+    image: Workout,
+    description: "This app was an assignment that would allow for a single user to record exercises",
+    github: "https://github.com/joe-toni/Workout_Tracker",
+    deploy: "https://s18-workout-tracker.herokuapp.com/?id=61c46b9893f502001603cf8e"
+}
+
 function Portfolio()
 {
-    const [main, setDisplay] = useState(true);
+    const [portfolio, viewPortfolio] = useState(true);
     const [view, setView] = useState({});
 
     const updateView = (project) => 
     {
-        setDisplay(false);
+        viewPortfolio(false);
         setView(project);
     };
     
     return(
-        <div className="portfolio-container">
-            {main
+        <div className="basic-container">
+            {portfolio
                 ?
-                    <div className = "mainView">
-                        <img className="thumbnail" src = {Pillar} onClick = {() => updateView(pillarProject)}/>
-                        <img className="thumbnail" src = {Blog} onClick = {() => updateView(blogProject)}/>
-                        <img className="thumbnail" src = {Travel} onClick = {() => updateView(travelProject)}/>
-                        <img className="thumbnail" src = {Weather} onClick = {() => updateView(weatherProject)}/>
-                        <img className="thumbnail" src = {Scheduler} onClick = {() => updateView(schedulerProject)}/>
+                    <div className = "portfolioView">
+                        <div  className="thumbnail" onClick = {() => updateView(pillarProject)}>
+                            <img src = {Pillar} className="projectImg"/>
+                            <h3 className="projectTitle">The Pillar Art Gallary</h3> 
+                        </div>
+                        <div  className="thumbnail" onClick = {() => updateView(blogProject)}>
+                            <img src = {Blog} className="projectImg"/>
+                            <h3 className="projectTitle">The Tech Blog</h3> 
+                        </div>
+                        <div  className="thumbnail" onClick = {() => updateView(travelProject)}>
+                            <img src = {Travel} className="projectImg"/>
+                            <h3 className="projectTitle">There And Back Again</h3> 
+                        </div>
+                        <div  className="thumbnail" onClick = {() => updateView(weatherProject)}>
+                            <img src = {Weather} className="projectImg"/>
+                            <h3 className="projectTitle">The Weather Dashboard</h3> 
+                        </div>
+                        <div  className="thumbnail" onClick = {() => updateView(schedulerProject)}>
+                            <img src = {Scheduler} className="projectImg"/>
+                            <h3 className="projectTitle">Daily Planner</h3> 
+                        </div>
+                        <div  className="thumbnail" onClick = {() => updateView(workoutProject)}>
+                            <img src = {Workout} className="projectImg"/>
+                            <h3 className="projectTitle">Workout Tracker</h3> 
+                        </div>
                     </div>
                 :
                     <div className = "projectView">
-                        <button className = "mainViewBtn" onClick = {() => setDisplay(true)}>Close</button>
+                        <button className = "mainViewBtn" onClick = {() => viewPortfolio(true)}>X</button>
                         <Project image =  {view.image} description = {view.description} github = {view.github} deploy = {view.deploy}/>
                     </div>
             } 
