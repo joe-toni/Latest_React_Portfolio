@@ -8,6 +8,11 @@ This project is simply a react app that houses information on presonal projects 
 
 https://joe-toni.github.io/Latest_React_Portfolio/
 
+#### Home Page
+
+![Latest_React_Portfolio](https://user-images.githubusercontent.com/84884625/147989305-1de64c28-346c-4ba3-ba47-bde1f02600b7.png)
+
+
 -----
 
 ## Table of Contents
