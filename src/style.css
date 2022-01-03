@@ -67,7 +67,7 @@ a
 .content-container
     {
         height: auto;
-        min-height: 200px;
+        min-height: 300px;
         width: 100%;
         border-top: 5px solid var(--backgroundwhite);
         border-bottom: 5px solid var(--backgroundwhite);
