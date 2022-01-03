@@ -5,7 +5,6 @@ import background from "./images/pawel-czerwinski-background-pattern.jpg"
 
 
 import Header from "./components/Header";
-import Welcome from "./Pages/Welcome";
 import Portfolio from "./Pages/Portfolio";
 import Resume from "./Pages/Resume";
 import About from "./Pages/About";

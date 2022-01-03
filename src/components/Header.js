@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import {Link} from "react-router-dom";
-import Welcome from "../Pages/Welcome";
 import Navigation from "./Navigation";
 
 function Header()

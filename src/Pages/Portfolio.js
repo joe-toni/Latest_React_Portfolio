@@ -10,6 +10,7 @@ import Workout from "../images/Workout_Tracker_Main_Page.png"
 
 const pillarProject = 
 {
+    name: "The Art Pillar",
     image: Pillar,
     description: "This project was a collaborative attempt at creating a site that allowed registered users to submit images " + 
      "to a central hub that would then display them along side others as if the viewer were visiting a gallery or museum " +
@@ -20,6 +21,7 @@ const pillarProject =
 
 const blogProject = 
 {
+    name: "The Tech Blog",
     image: Blog,
     description: "This assingment was my first commplete full stack application that employeed an MVC framework " + 
     "to  produce a basic blog posting site, users of this site with created accounts able to post blogs, and comments that " +
@@ -30,6 +32,7 @@ const blogProject =
 
 const travelProject = 
 {
+    name: "There And Back",
     image: Travel,
     description: "This project was a collaborative work that was aimed at creating an app that would assist a user " +
     "in planning potential road trips by providing weather infomation along a route and a planner tool for keeping " +
@@ -40,6 +43,7 @@ const travelProject =
 
 const weatherProject = 
 {
+    name: "Weather Dash Board",
     image: Weather,
     description: "This app was an assignment that would allow a user to save notes on planned activities though out " +
     "the day It would correctly determine the time of day to color code which segments were either past, present, or future. " +
@@ -50,6 +54,7 @@ const weatherProject =
 
 const schedulerProject = 
 {
+    name: "Daily Planner",
     image: Scheduler,
     description: "This app was an assignment that would allow the user to perform a very basic location search by name " +
     "in order to get and display the weather for said location. It would display the current conditions as well as a slightly " +
@@ -60,6 +65,7 @@ const schedulerProject =
 
 const workoutProject = 
 {
+    name: "Fitness Tracker",
     image: Workout,
     description: "This app was an assignment that would allow for a single user to record exercises",
     github: "https://github.com/joe-toni/Workout_Tracker",
@@ -81,7 +87,9 @@ function Portfolio()
         <div className="basic-container">
             {portfolio
                 ?
+                    
                     <div className = "portfolioView">
+                        <h2>Portfolio</h2>
                         <div  className="thumbnail" onClick = {() => updateView(pillarProject)}>
                             <img src = {Pillar} className="projectImg" alt = "Pillar Project"/>
                             <h3 className="projectTitle">The Pillar Art Gallary</h3> 
@@ -110,7 +118,7 @@ function Portfolio()
                 :
                     <div className = "projectView">
                         <button className = "mainViewBtn" onClick = {() => viewPortfolio(true)}>X</button>
-                        <Project image =  {view.image} description = {view.description} github = {view.github} deploy = {view.deploy}/>
+                        <Project name = {view.name} image =  {view.image} description = {view.description} github = {view.github} deploy = {view.deploy}/>
                     </div>
             } 
         </div>

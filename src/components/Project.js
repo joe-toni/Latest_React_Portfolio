@@ -4,6 +4,7 @@ function Project(props)
 {
     return(
         <div className= "basic-container">
+            <h2>{props.name}</h2>
             <img className= "image-container"  src = {props.image}/>
             <p>{props.description}
             <div className="linkContainer">
