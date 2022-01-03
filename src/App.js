@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 
 //We start by bringing in the background image we will use for the overall site.
 import background from "./images/pawel-czerwinski-background-pattern.jpg"

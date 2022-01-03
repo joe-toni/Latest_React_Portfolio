@@ -28,6 +28,8 @@ function Navigation()
             {selectContact(true);}
         else if (current === "/resume")
             {selectResume(true);}
+        else
+            {selectAboutMe(true);}
     }
 
     //This useEffect is used to check the current page and adjust the active link based on the path name everytime the page remounts, it is meant
