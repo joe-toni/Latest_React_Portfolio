@@ -34,9 +34,16 @@ function Navigation()
 
     //This useEffect is used to check the current page and adjust the active link based on the path name everytime the page remounts, it is meant
     //to correctly adjust the default highlighted link incase the user refreshes on a page that is not the about me.
-    useEffect(() => {
-        const current = window.location.pathname
-        setCurrent(current);
+   useEffect(() => {
+        const location = window.location.href;
+        if (location.includes("/aboutMe"))
+            {setCurrent("/aboutMe")}
+        else if (location.includes("/portfolio"))
+            {setCurrent("/portfolio")}
+        else if (location.includes("/contact"))
+            {setCurrent("/contact")}
+        else if (location.includes("/resume"))
+            {setCurrent("/resume")}
       },[]);
 
     //The nav component returns a div with links to each page and uses conditional rendering to add a current class name to the selected link adjusting its 
