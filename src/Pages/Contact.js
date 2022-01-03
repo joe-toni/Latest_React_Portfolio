@@ -1,4 +1,5 @@
-import React, {useEffect, useState} from "react";
+import React, {useState} from "react";
+import {validateEmail} from '../utils/helpers';
 
 
 function Contact()
@@ -33,21 +34,37 @@ function Contact()
             { return setError("A message is required")}
         else
             {return setError("");}
-    }
+    };
     
+    const handleFormSubmit = (e) =>
+    {
+        e.preventDefault();
+        if(!Name || !Email || !Message)
+        {return setError("All fields must be filled out");}
+        else if (!validateEmail(Email))
+        {return setError("Invalid Email");}
+        else
+        {
+            setName("");
+            setEmail("");
+            setMessage("");
+            setPrevious("");
+            setError("");
+        }   
+    };
    
 
 
     return(
         <div className= "basic-container">
             <h2>Contact</h2>
-            <form >
+            <form onSubmit={handleFormSubmit}>
                 <label>Name</label>
-                <input type={"text"} name = "name" onChange={handleInputChange} onSelect={() => setPrevious("name")} onBlur = {checkPrevForValue}></input>
+                <input type={"text"} name = "name" onChange={handleInputChange} onSelect={() => setPrevious("name")} onBlur = {checkPrevForValue} value={Name}></input>
                 <label>Email Address</label>
-                <input type={"text"} name = "email" onChange={handleInputChange}  onSelect={ () => setPrevious("email")} onBlur = {checkPrevForValue}></input>
+                <input type={"text"} name = "email" onChange={handleInputChange}  onSelect={ () => setPrevious("email")} onBlur = {checkPrevForValue} value={Email}></input>
                 <label>Message</label>
-                <textarea name = "message" onChange={handleInputChange} onSelect={() => setPrevious("message")} onBlur = {checkPrevForValue}></textarea>
+                <textarea name = "message" onChange={handleInputChange} onSelect={() => setPrevious("message")} onBlur = {checkPrevForValue} value = {Message}></textarea>
                 <label>{Error}</label>
                 <input type={"submit"}  className = "btn"></input>
                 
