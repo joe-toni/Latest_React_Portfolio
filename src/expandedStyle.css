@@ -1,0 +1,112 @@
+@media only screen and (min-width: 520px)
+{
+    .title-container
+    {
+        align-self: flex-start;
+    }
+    nav
+    {
+        align-self: flex-end;
+        margin-right: 20px
+    }
+
+    .basic-container p
+    {
+        width: 400px;
+    }
+
+    .portfolioView
+    {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .segment
+    {
+        width: 45%;
+    }
+    
+    .projectView img
+    {
+        width: 400px;
+    }
+    form
+    {
+        width: 300px;
+    }
+
+    .resume-container
+    {
+        width: 300px;
+    }
+
+    .resume-container p
+    {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 730px)
+{
+    .title-container
+    {
+        width: 350px;
+    }
+
+    .basic-container h2
+    {
+        align-self: flex-start;
+        margin-left: 20px;
+    }
+
+    .profile-container
+    {
+        width: 90%;
+        flex-direction: row;
+    }
+    
+    .profile-container img
+    {
+        align-self: flex-start;
+    }
+
+    .segment
+    {
+        width: 30%;
+    }
+
+    .projectView img
+    {
+        width: 600px;
+    }
+
+    form 
+    {
+        padding-left: 100px;
+        align-self: flex-start;
+    }
+
+    .resume-container
+    {
+        width: 500px;
+    }
+
+    .list-container
+    {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (min-width: 950px)
+{
+    .profile-container
+    {
+        width: 70%;
+    }
+    .portfolioView
+    {
+        width: 90%;
+    }
+}

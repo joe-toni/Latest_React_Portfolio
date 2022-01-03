@@ -95,11 +95,12 @@ a
 .basic-container h2
 {
     text-align: center;
-    width: 150px;
+    width: auto;
     border: 3px solid var(--softblue);
     border-radius: 5px;
     background-color: var(--currentgrey);
     color: var(--softblue);
+    padding: 5px;
 }
 .basic-container p
 {
@@ -120,11 +121,33 @@ a
     border: 5px solid var(--softblue);
 }
 
+.profile-container
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .portfolioView
 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+.segment
+{
+    width: 100%;
+    display: flex;
     align-items: center;
 }
 
@@ -142,7 +165,8 @@ a
 .thumbnail img
 {
     width: 100%;
-    height: 100%;   
+    height: 100%; 
+    object-fit: cover;  
 }
 
 .thumbnail h3
@@ -203,11 +227,6 @@ form
     height: 300px;
     display: flex;
     flex-direction: column;
-}
-
-form p
-{
-    
 }
 
 label
@@ -272,3 +291,4 @@ textarea
 {
     margin: -15px 0 10px 0;
 }
+

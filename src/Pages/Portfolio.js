@@ -87,33 +87,46 @@ function Portfolio()
         <div className="basic-container">
             {portfolio
                 ?
-                    
+                    <div className="portfolio-container">
+                    <h2>Portfolio</h2>
                     <div className = "portfolioView">
-                        <h2>Portfolio</h2>
+                        <div className="segment">
                         <div  className="thumbnail" onClick = {() => updateView(pillarProject)}>
                             <img src = {Pillar} className="projectImg" alt = "Pillar Project"/>
                             <h3 className="projectTitle">The Pillar Art Gallary</h3> 
                         </div>
+                        </div>
+                        <div className="segment">
                         <div  className="thumbnail" onClick = {() => updateView(blogProject)}>
                             <img src = {Blog} className="projectImg" alt = "Blog Project"/>
                             <h3 className="projectTitle">The Tech Blog</h3> 
                         </div>
+                        </div>
+                        <div className="segment">
                         <div  className="thumbnail" onClick = {() => updateView(travelProject)}>
                             <img src = {Travel} className="projectImg" alt = "Travel Project"/>
                             <h3 className="projectTitle">There And Back Again</h3> 
                         </div>
+                        </div>
+                        <div className="segment">
                         <div  className="thumbnail" onClick = {() => updateView(weatherProject)}>
                             <img src = {Weather} className="projectImg" alt = "Weather Project"/>
                             <h3 className="projectTitle">The Weather Dashboard</h3> 
                         </div>
+                        </div>
+                        <div className="segment">
                         <div  className="thumbnail" onClick = {() => updateView(schedulerProject)}>
                             <img src = {Scheduler} className="projectImg" alt = "Scheduler Project"/>
                             <h3 className="projectTitle">Daily Planner</h3> 
                         </div>
+                        </div>
+                        <div className="segment">
                         <div  className="thumbnail" onClick = {() => updateView(workoutProject)}>
                             <img src = {Workout} className="projectImg" alt = "Workout Project"/>
                             <h3 className="projectTitle">Workout Tracker</h3> 
                         </div>
+                        </div>
+                    </div>
                     </div>
                 :
                     <div className = "projectView">
