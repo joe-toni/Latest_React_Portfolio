@@ -205,16 +205,27 @@ form
     flex-direction: column;
 }
 
+form p
+{
+    
+}
+
 label
 {
+    margin: 5px;
     font-weight: bolder;
 }
 
 input
 {
-    margin: 10px 0;
+    margin: 5px 0;
 }
 textarea
 {
     height: 100px;
+}
+
+.btn 
+{
+    width: 75px;
 }
