@@ -1,9 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
+//We start by bringing in the background image we will use for the overall site.
 import background from "./images/pawel-czerwinski-background-pattern.jpg"
 
-
+//Here we are brining in all the react components we will be using to form our frame and rendure the content for different pages.
 import Header from "./components/Header";
 import Portfolio from "./Pages/Portfolio";
 import Resume from "./Pages/Resume";

@@ -1,9 +1,11 @@
+/*This style sheet will contain styling that adjusts the pages for expanded screens, only slightly adjusting existing css from the style.css file*/
 @media only screen and (min-width: 520px)
 {
     .title-container
     {
         align-self: flex-start;
     }
+
     nav
     {
         align-self: flex-end;
@@ -21,6 +23,7 @@
         flex-wrap: wrap;
         justify-content: space-around;
     }
+
     .segment
     {
         width: 45%;
@@ -30,6 +33,7 @@
     {
         width: 400px;
     }
+
     form
     {
         width: 300px;
@@ -105,6 +109,7 @@
     {
         width: 70%;
     }
+    
     .portfolioView
     {
         width: 90%;
