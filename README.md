@@ -4,7 +4,9 @@
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
         
 ##  Description
-This project is simply a react app that houses information on presonal projects and uses nothing but front end javascript to handle what content gets rendered, as well as css to style it.
+This project is simply a react app that houses information on presonal projects and uses nothing but front end javascript to handle what content gets rendered, as well as css to style it. Check out the live site at the link below.
+
+https://joe-toni.github.io/Latest_React_Portfolio/
 
 -----
 
