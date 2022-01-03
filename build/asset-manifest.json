@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Latest_React_Portfolio/static/css/main.31c7b3ca.chunk.css",
+    "main.js": "/Latest_React_Portfolio/static/js/main.23972404.chunk.js",
+    "main.js.map": "/Latest_React_Portfolio/static/js/main.23972404.chunk.js.map",
+    "runtime-main.js": "/Latest_React_Portfolio/static/js/runtime-main.d5f8c174.js",
+    "runtime-main.js.map": "/Latest_React_Portfolio/static/js/runtime-main.d5f8c174.js.map",
+    "static/js/2.21743e29.chunk.js": "/Latest_React_Portfolio/static/js/2.21743e29.chunk.js",
+    "static/js/2.21743e29.chunk.js.map": "/Latest_React_Portfolio/static/js/2.21743e29.chunk.js.map",
+    "index.html": "/Latest_React_Portfolio/index.html",
+    "static/css/main.31c7b3ca.chunk.css.map": "/Latest_React_Portfolio/static/css/main.31c7b3ca.chunk.css.map",
+    "static/js/2.21743e29.chunk.js.LICENSE.txt": "/Latest_React_Portfolio/static/js/2.21743e29.chunk.js.LICENSE.txt",
+    "static/media/The_Art_Pillar_Personal_Copy_Screenshot.65732f50.png": "/Latest_React_Portfolio/static/media/The_Art_Pillar_Personal_Copy_Screenshot.65732f50.png",
+    "static/media/The_Tech_Blog_Original_Homescreen.868deb66.png": "/Latest_React_Portfolio/static/media/The_Tech_Blog_Original_Homescreen.868deb66.png",
+    "static/media/There_And_Back_Original_Screenshot.e9372aca.png": "/Latest_React_Portfolio/static/media/There_And_Back_Original_Screenshot.e9372aca.png",
+    "static/media/Weather_Dashboard_Original_Screenshot.d51375bd.png": "/Latest_React_Portfolio/static/media/Weather_Dashboard_Original_Screenshot.d51375bd.png",
+    "static/media/Work_Day_Scheduler_Original_Screenshot.9e8599c8.png": "/Latest_React_Portfolio/static/media/Work_Day_Scheduler_Original_Screenshot.9e8599c8.png",
+    "static/media/Workout_Tracker_Main_Page.8e84e6e3.png": "/Latest_React_Portfolio/static/media/Workout_Tracker_Main_Page.8e84e6e3.png",
+    "static/media/pawel-czerwinski-background-pattern.3849bdd5.jpg": "/Latest_React_Portfolio/static/media/pawel-czerwinski-background-pattern.3849bdd5.jpg",
+    "static/media/smaller-profile-pic.5a2a931f.jpg": "/Latest_React_Portfolio/static/media/smaller-profile-pic.5a2a931f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d5f8c174.js",
+    "static/js/2.21743e29.chunk.js",
+    "static/css/main.31c7b3ca.chunk.css",
+    "static/js/main.23972404.chunk.js"
+  ]
+}
