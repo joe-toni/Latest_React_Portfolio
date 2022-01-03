@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Latest_React_Portfolio/static/css/main.590382ed.chunk.css",
+    "main.css": "/Latest_React_Portfolio/static/css/main.0d6850a6.chunk.css",
     "main.js": "/Latest_React_Portfolio/static/js/main.fd4c7436.chunk.js",
     "main.js.map": "/Latest_React_Portfolio/static/js/main.fd4c7436.chunk.js.map",
     "runtime-main.js": "/Latest_React_Portfolio/static/js/runtime-main.d5f8c174.js",
@@ -8,7 +8,7 @@
     "static/js/2.53358c88.chunk.js": "/Latest_React_Portfolio/static/js/2.53358c88.chunk.js",
     "static/js/2.53358c88.chunk.js.map": "/Latest_React_Portfolio/static/js/2.53358c88.chunk.js.map",
     "index.html": "/Latest_React_Portfolio/index.html",
-    "static/css/main.590382ed.chunk.css.map": "/Latest_React_Portfolio/static/css/main.590382ed.chunk.css.map",
+    "static/css/main.0d6850a6.chunk.css.map": "/Latest_React_Portfolio/static/css/main.0d6850a6.chunk.css.map",
     "static/js/2.53358c88.chunk.js.LICENSE.txt": "/Latest_React_Portfolio/static/js/2.53358c88.chunk.js.LICENSE.txt",
     "static/media/The_Art_Pillar_Personal_Copy_Screenshot.65732f50.png": "/Latest_React_Portfolio/static/media/The_Art_Pillar_Personal_Copy_Screenshot.65732f50.png",
     "static/media/The_Tech_Blog_Original_Homescreen.868deb66.png": "/Latest_React_Portfolio/static/media/The_Tech_Blog_Original_Homescreen.868deb66.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.d5f8c174.js",
     "static/js/2.53358c88.chunk.js",
-    "static/css/main.590382ed.chunk.css",
+    "static/css/main.0d6850a6.chunk.css",
     "static/js/main.fd4c7436.chunk.js"
   ]
 }
